@@ -347,115 +347,12 @@ with open (r'sample.txt') as f:
     t_list = sample.generate_list_tokens()
     # print(code)
     # print(t_list)
-    """
-    Question 5:The selection statement is used to evaluate an expression 
-    and run a certain code block based on the expression's outcome. 
-    A mapping from a boolean expression to a list of instructions is the definition of the denotational semantics of the selection statement. 
-    Depending on the outcome of the evaluation, 
-    the expression is assessed and the set of instructions is carried out.
-    Question 6: Loop Statement: The loop statement is utilized to repeatedly run a specific code block. 
-    The mapping from a boolean expression to a list of instructions is the definition of the denotational semantics of the loop statement. 
-    If the expression is true, the loop statement evaluates it and runs the code block's instructions. Until the expression returns false, 
-    the loop statement will keep evaluating it and running the code block's instructions.
-    Question 7: Expr Statement: A value is returned as a consequence of evaluating an expression using the expr statement. 
-    A mapping from a collection of operations to a value is the definition of the denotational semantics of the expr statement. 
-    A value is returned as a consequence of the operations' evaluation by the expr statement.
-    Question 8 : Expr Statement (Boolean): The expr statement can be changed to yield a boolean answer (Expr Statement (Boolean)). 
-    The mapping from a series of operations to a boolean value is the definition of the denotational semantics of the expr statement. 
-    A boolean value is returned as a consequence of the expr statement's evaluation of the operations.
-    Question 9 : 
-    Attribute Grammar:
 
-    Assignment Statement:
 
-String + String -> Concatenate
-
-String Natural -> Repeat
-
-bool Natural -> Assign
-
-Natural bool -> Assign
-
-char Natural -> Assign
-
-Natural char -> Assign
-
-Natural Real -> Assign
-
-No other types -> Error
-
-Divide by zero -> Error
-
-Modulo by zero -> Error
-Question 10:
-Syntactically Valid Assignment Statements:
-
-Statement 1: a = 2 * (1 * b + a);
-
-Semantic Rule Result: Pass
 
 
  
 
-Statement 2: b=3*a-2
 
-Semantic Rule Result: Pass
-
-
- 
-
-Statement 3: x = x + 2
-
-Semantic Rule Result: Pass
-Question 11:
-Axiomatic Semantics:
-
-A: a = 2* (b-1)-1 {a > 0}
-
-Weakest Precondition: b > 0
-
-
- 
-
-B: if (x <y)
-
-X = X +1
-
-else
-
-x = 3*X
-
-{x < 0}
-
-Weakest Precondition: x < 0 and y > 0
-
-
- 
-
-C: y=a* 2* (b-1)-1
-
-if (x <y)
-
-x = y + 1
-
-else
-
-x = 3* x
-
-{x < 0}
-
-Weakest Precondition: x < 0, y > 0, and a > 0, b > 0
-
-
- 
-
-D: a = 3 * (2 * b + a);
-
-b=2*a-1
-
-{b > 5}
-
-Weakest Precondition: a > 0, b > 5
-    """
     
      
